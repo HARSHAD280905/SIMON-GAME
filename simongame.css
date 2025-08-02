@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 1rem;
+    background-color: #fdfdfd;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.instructions {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.line1, .line2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    width: 40vw;
+    max-width: 200px;
+    height: 40vw;
+    max-height: 200px;
+    border-radius: 20%;
+    border: 2px solid black;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.pink {
+    background-color: palevioletred;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: greenyellow;
+}
+.blue {
+    background-color: aqua;
+}
+
+
+.flash {
+    background-color: green !important;
+}
+.userflash {
+    background-color: rgb(240, 237, 237) !important;
+}
+
+
+@media (max-width: 600px) {
+    .btn {
+        width: 40vw;
+        height: 40vw;
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
