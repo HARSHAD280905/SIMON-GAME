@@ -5,6 +5,17 @@ let start=false;
 let level=0;
 
 let h2=document.querySelector("h2");
+document.addEventListener("keypress", startGame);
+document.getElementById("startBtn").addEventListener("click", startGame);
+function startGame() {
+    if (!start) {
+        console.log("Game is Starting..!");
+        start = true;
+        levelUp();
+    }
+}
+
+
 document.addEventListener("keypress",function(){
     if(start==false)
     {

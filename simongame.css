@@ -26,6 +26,21 @@ h2 {
     margin-bottom: 2rem;
     line-height: 1.6;
 }
+#startBtn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+#startBtn:active {
+    background-color: #45a049;
+}
+
 
 
 .box {
